@@ -16,7 +16,7 @@ export const DesignField = (props: DesignFieldProps) => {
       name={name}
       control={control}
       render={({ field }) => {
-        const isValueForbidden = data?.design.every(
+        const isValueForbidden = data?.design?.every(
           (item) => item.id !== field.value,
         );
         return (
