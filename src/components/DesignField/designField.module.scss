@@ -1,0 +1,16 @@
+.root {
+  display: block;
+  border: 1px solid #666;
+  padding: 1rem;
+  cursor: pointer;
+
+  &.active {
+    background: rgba(255,255,255,.3);
+  }
+}
+
+.forbiddenItem {
+  padding: 1rem;
+  background: #a00;
+  color: white;
+}

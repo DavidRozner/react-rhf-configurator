@@ -1,0 +1,35 @@
+{
+  "design": [
+    {
+      "id": 0,
+      "title": "Naked",
+      "type": "core",
+      "description": "Raw Carbon",
+      "priceModifier": 40000,
+      "weightModifier": 880
+    },
+    {
+      "id": 1,
+      "title": "Color",
+      "type": "core",
+      "description": "Raw carbon + color",
+      "priceModifier": 50000,
+      "weightModifier": 900
+    },
+    {
+      "id": 2,
+      "title": "Spirit",
+      "type": "core",
+      "description": "Custom design",
+      "priceModifier": 60000,
+      "weightModifier": 920
+    },
+    {
+      "id": 3,
+      "title": "Custom",
+      "type": "Limited edition",
+      "description": "Custom design",
+      "priceModifier": 70000,
+      "weightModifier": 940
+    }
+}
